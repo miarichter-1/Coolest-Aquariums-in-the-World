@@ -1,0 +1,49 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f2f9ff;
+  color: #333;
+}
+
+header {
+  text-align: center;
+  margin: 20px 0;
+}
+
+h1 {
+  font-size: 3em;
+}
+
+.handwriting {
+  font-family: 'Brush Script MT', cursive;
+  color: #005577;
+}
+
+main {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 10px;
+}
+
+h2 {
+  color: #004466;
+}
+
+p {
+  line-height: 1.6;
+}
+
+img {
+  width: 100%;
+  max-width: 500px;
+  display: block;
+  margin: 20px auto;
+  border-radius: 15px;
+  transition: transform 0.3s;
+}
+
+img.rounded:hover {
+  transform: scale(1.1);
+}
